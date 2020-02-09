@@ -1,0 +1,32 @@
+//
+// Created by lsw on 2020/02/05.
+//
+
+#ifndef PACKETDUMP_ETHERTYPE_H
+#define PACKETDUMP_ETHERTYPE_H
+
+#ifndef ETHERTYPE_IPV4
+#define ETHERTYPE_IPV4 0x0800
+#endif
+
+#ifndef ETHERTYPE_ARP
+#define ETHERTYPE_ARP 0x0806
+#endif
+
+#ifndef ETHERTYPE_AVTP
+#define ETHERTYPE_AVTP 0x22F0
+#endif
+
+#ifndef ETHERTYPE_RARP
+#define ETHERTYPE_RARP 0x8035
+#endif
+
+#ifndef ETHERTYPE_IPX
+#define ETHERTYPE_IPX 0x8137
+#endif
+
+#ifndef ETHERTYPE_IPV6
+#define ETHERTYPE_IPV6 0x86DD
+#endif
+
+#endif //PACKETDUMP_ETHERTYPE_H

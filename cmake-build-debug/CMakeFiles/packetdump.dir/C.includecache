@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lsw/Code/packetdump/dissect.h
+type.h
+/Users/lsw/Code/packetdump/type.h
+pcap.h
+-
+
+/Users/lsw/Code/packetdump/tcp.c
+tcp.h
+/Users/lsw/Code/packetdump/tcp.h
+arpa/inet.h
+-
+dissect.h
+/Users/lsw/Code/packetdump/dissect.h
+
+/Users/lsw/Code/packetdump/tcp.h
+
+/Users/lsw/Code/packetdump/type.h
+
